@@ -58,12 +58,12 @@ function numberToArray(num: number): number[] {
   console.log(results); // [5, 6]
   
   // G. Create an object from the given key-value pairs
-  function createObjectFromPairs<T>(pairs: [string, T][]): { [key: string]: T } {
-    return Object.fromEntries(pairs);
-  }
+  // function createObjectFromPairs<T>(pairs: [string, T][]): { [key: string]: T } {
+  //   return Object.fromEntries(pairs);
+  // }
   
-  // Example usage
-  console.log(createObjectFromPairs([['name', 'Alice'], ['age', 28]])); // { name: 'Alice', age: 28 }
+  // // Example usage
+  // console.log(createObjectFromPairs([['name', 'Alice'], ['age', 28]])); // { name: 'Alice', age: 28 }
   
   // H. To join all given URL segments together, then normalize the resulting URL
   function joinUrls(...segments: string[]): string {
